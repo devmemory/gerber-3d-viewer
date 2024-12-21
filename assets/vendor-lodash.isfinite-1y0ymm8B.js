@@ -1,0 +1,1 @@
+import{c as e}from"./vendor-@tracespace-_ibhTgpc.js";var t,r;function b(){if(r)return t;r=1;var o=typeof e=="object"&&e&&e.Object===Object&&e,n=typeof self=="object"&&self&&self.Object===Object&&self,s=o||n||Function("return this")(),f=s.isFinite;function a(i){return typeof i=="number"&&f(i)}return t=a,t}export{b as r};

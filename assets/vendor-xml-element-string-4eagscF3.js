@@ -1,0 +1,1 @@
+import{r as g}from"./vendor-escape-html-CnGJ826T.js";var t,u;function E(){if(u)return t;u=1;var n=g();return t=function(a,r,e){r=r||{},e=e||[];var v="<"+n(a),i=Object.keys(r).reduce(function(c,m){var l=r[m],f=l!=null?" "+n(m)+'="'+n(l)+'"':"";return c+f},""),o=e.length?">"+e.join("")+"</"+a+">":"/>";return v+i+o},t}export{E as r};

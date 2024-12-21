@@ -1,0 +1,1 @@
+import{c as u}from"./vendor-@tracespace-_ibhTgpc.js";/*! queue-microtask. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */var e,r;function s(){if(r)return e;r=1;let o;return e=typeof queueMicrotask=="function"?queueMicrotask.bind(typeof window<"u"?window:u):t=>(o||(o=Promise.resolve())).then(t).catch(i=>setTimeout(()=>{throw i},0)),e}export{s as r};
